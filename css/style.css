@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Pacifico";
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+body {
+    background-image: url(../images/tri-tea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    font-family: 'Pacifico', cursive;
+    
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+     
+}
+.tea {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 10px;
+}
+.herbs {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: black;
+}
+.spices {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: black;
+}
+.contact {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: black;
+}
+.pic-1 {
+    margin: 5px;
+}
+nav li:hover {
+    color: rgb(211, 179, 100);
+    font-size: 20px;
+}
+.logo {
+    text-align: center;
+    width: 250px;
+    margin: 15px auto;
+    border-top: solid;
+    border-radius: 20%;
+}
+#para-1 {
+    width: 250px;
+    margin: 15px
+}
+.p-1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
